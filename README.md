@@ -1,5 +1,7 @@
 # landing-page
 
+Preview : https://hanwebcoder.github.io/landing-page/
+
 submission landing page for Odin Project
 
 # Credit

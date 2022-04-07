@@ -1,0 +1,87 @@
+:root {
+    --dark-bg: #1F2937;
+    --header-color: #F9FAF8;
+    --sec-color: #E5E7EB;
+    --cta-button-color: #3882F6;
+    --info-header-color: #1F2937;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--dark-bg);
+    padding: 20px 100px 0px 100px;
+}
+
+header .logo h1 {
+    color: var(--header-color);
+    font-size: 24px;
+}
+
+header .nav ul {
+    display: flex;
+    column-gap: 1em;
+    list-style-type: none;
+}
+
+header .nav ul li a {
+    color: var(--sec-color);
+    text-decoration: none;
+}
+
+header .nav ul li a:hover {
+    color: var(--header-color);
+}
+
+.hero {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: var(--dark-bg);
+    padding: 50px 100px;
+}
+
+.hero .left img {
+    height: auto;
+    width: 500px;
+}
+
+.hero .right {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.hero .right h1 {
+    font-size: 48px;
+    color: var(--header-color);
+}
+
+.hero .right p {
+    font-size: 18px;
+    color: var(--sec-color);
+}
+
+.hero .right button {
+    border: none;
+    flex: 0 0 10%;
+    width: 100px;
+    padding: 5px 25px;
+    border-radius: 10px;
+    background-color: var(--cta-button-color);
+    color: var(--header-color);
+}
+
+.info {
+}
+
+.quote {
+}
+
+.cta {
+}

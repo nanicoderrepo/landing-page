@@ -2,6 +2,7 @@
     --dark-bg: #1F2937;
     --header-color: #F9FAF8;
     --sec-color: #E5E7EB;
+    --info-text: #4b5563;
     --cta-button-color: #3882F6;
     --info-header-color: #1F2937;
 }
@@ -75,9 +76,57 @@ header .nav ul li a:hover {
     border-radius: 10px;
     background-color: var(--cta-button-color);
     color: var(--header-color);
+    font-weight: bold;
 }
 
 .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info .title {
+    display: flex;
+    justify-content: center;
+}
+
+.info .title h1 {
+    font-size: 36px;
+    color: var(--info-header-color);
+    padding: 2em 0em 2em 0em;
+}
+
+.info .items {
+    display: flex;
+    justify-content: center;
+    column-gap: 2em;
+    padding: 0em 0em 6em 0em;
+}
+
+.info .items .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info .items .item img {
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 60% 0;
+}
+
+.info .items .item .border {
+    background-color: var(--cta-button-color);
+    border-radius: 5px;
+    width: 155px;
+    height: 155px;
+}
+
+.info .items .item p {
+    width: 150px;
+    text-align: center;
+    color: var(--info-text);
 }
 
 .quote {

@@ -131,9 +131,6 @@ header .nav ul li a:hover {
 }
 
 .quote {
-}
-
-.quote {
     margin: 0;
     background: var(--sec-color);
     padding: 4em 10em;
@@ -191,4 +188,12 @@ header .nav ul li a:hover {
 }
 
 footer {
+    display: flex;
+    background-color: var(--dark-bg);
+    justify-content: center;
+    padding: 2em 0em;
+}
+
+footer p {
+    color: var(--header-color);
 }

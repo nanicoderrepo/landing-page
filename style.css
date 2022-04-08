@@ -45,6 +45,7 @@ header .nav ul li a:hover {
     flex-direction: row-reverse;
     background-color: var(--dark-bg);
     padding: 4em 6em;
+    column-gap: 2em;
 }
 
 .hero .left img {
@@ -55,7 +56,7 @@ header .nav ul li a:hover {
 .hero .right {
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    row-gap: 2em;
 }
 
 .hero .right h1 {
@@ -154,7 +155,39 @@ header .nav ul li a:hover {
     text-indent: 80%;
 }
 
-.cta {
+.ctas .cta {
+    align-items: center;
+    display: flex;
+    background-color: var(--cta-button-color);
+    padding: 5em 10em;
+    margin: 5em 10em;
+    border-radius: 1em;
+    column-gap: 5em;
+    justify-content: space-between;
+}
+
+.ctas .cta .text h1 {
+    color: var(--header-color);
+    font-size: 24px;
+}
+
+.ctas .cta .text p {
+    color: var(--sec-color);
+}
+
+.ctas .cta button {
+    display: flex;
+    border: 2px solid var(--header-color);
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: var(--cta-button-color);
+    color: var(--header-color);
+    font-weight: bold;
 }
 
 footer {
